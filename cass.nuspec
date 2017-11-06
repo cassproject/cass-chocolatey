@@ -1,0 +1,29 @@
+﻿<?xml version="1.0"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
+  <metadata>
+    <id>cass</id>
+    <version>3.0.1</version>
+    <title>CASS</title>
+    <authors>cassproject</authors>
+    <owners>Fritz Ray</owners>
+    <licenseUrl>https://cdn.rawgit.com/cassproject/CASS/4658d289/LICENSE</licenseUrl>
+    <projectUrl>http://www.cassproject.org/</projectUrl>
+    <iconUrl>https://cdn.rawgit.com/cassproject/CASS/4658d289/src/main/webapp/favicon.ico?raw=true</iconUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Competency and Skills System (CASS) Repository.</description>
+    <summary>Competency and Skills System (CASS) Repository.</summary>
+    <releaseNotes>https://docs.google.com/document/d/e/2PACX-1vSqyxr3Mb12rw1cHNIMYJ5qwEy-uUZRx4gRN-lfJrWDbMOaTh5LouzatdQpUFE39xCNIBwwQdCz_UX5/pub?embedded=true</releaseNotes>
+    <tags>cass competency cassproject skills knowledge ability abilities skill</tags>
+    <packageSourceUrl>https://github.com/cassproject/cass-nuget</packageSourceUrl>
+	<dependencies>
+      <dependency id="jre8"/>
+      <dependency id="Tomcat" version="8.5.12"/>
+      <dependency id="elasticsearch" version="5.6.0" />
+      <dependency id="maven" version="3.5.2"/>
+      <dependency id="git" version="2.15.0"/>
+    </dependencies>
+  </metadata>
+	<files>
+		<file src="tools\**" target="tools" />
+	</files>
+</package>
