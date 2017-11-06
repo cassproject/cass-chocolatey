@@ -1,5 +1,4 @@
-﻿
-stop-service "elasticsearch-service-x64"
+﻿stop-service "tomcat8"
 rm "$env:CATALINA_HOME\webapps\ROOT.war"
 rm "$env:CATALINA_HOME\webapps\root" -Recurse
-start-service "elasticsearch-service-x64"
+start-service "tomcat8"

@@ -1,6 +1,4 @@
 ﻿#$ErrorActionPreference = 'Stop'; # stop on all errors
-#Install-VirtualPackage 'notepadplusplus.commandline' 'notepadplusplus.install'
-
 
 $packageName= 'CASS' # arbitrary name for the package, used in messages
 
