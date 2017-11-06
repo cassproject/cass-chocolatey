@@ -14,7 +14,7 @@
     <summary>Competency and Skills System (CASS) Repository.</summary>
     <releaseNotes>https://docs.google.com/document/d/e/2PACX-1vSqyxr3Mb12rw1cHNIMYJ5qwEy-uUZRx4gRN-lfJrWDbMOaTh5LouzatdQpUFE39xCNIBwwQdCz_UX5/pub?embedded=true</releaseNotes>
     <tags>cass competency cassproject skills knowledge ability abilities skill</tags>
-    <packageSourceUrl>https://github.com/cassproject/cass-nuget</packageSourceUrl>
+    <packageSourceUrl>https://github.com/cassproject/cass-chocolatey</packageSourceUrl>
 	<dependencies>
       <dependency id="jre8"/>
       <dependency id="Tomcat" version="8.5.12"/>
