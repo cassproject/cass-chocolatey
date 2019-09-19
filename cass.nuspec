@@ -2,7 +2,7 @@
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <id>cass</id>
-    <version>3.0.3</version>
+    <version>3.2.24</version>
     <title>CASS</title>
     <authors>cassproject</authors>
     <owners>Fritz Ray</owners>
@@ -16,12 +16,9 @@
     <tags>cass competency cassproject skills knowledge ability abilities skill</tags>
     <packageSourceUrl>https://github.com/cassproject/cass-chocolatey</packageSourceUrl>
 	<dependencies>
-      <dependency id="openjdk"/>
       <dependency id="Tomcat" version="8.5.12"/>
-      <dependency id="elasticsearch" version="5.6.0" />
-      <dependency id="maven" version="3.5.2"/>
-      <dependency id="git" version="2.15.0"/>
-    </dependencies>
+      <dependency id="elasticsearch" version="6.7.1" />
+  </dependencies>
   </metadata>
 	<files>
 		<file src="tools\**" target="tools" />
