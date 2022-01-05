@@ -1,4 +1,4 @@
-﻿<?xml version="1.0"?>
+﻿<?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://schemas.microsoft.com/packaging/2011/08/nuspec.xsd">
   <metadata>
     <id>cass</id>
@@ -16,8 +16,9 @@
     <tags>cass competency cassproject skills knowledge ability abilities skill</tags>
     <packageSourceUrl>https://github.com/cassproject/cass-chocolatey</packageSourceUrl>
 	<dependencies>
-      <dependency id="Tomcat" version="8.5.12"/>
-      <dependency id="elasticsearch" version="6.7.1" />
+      <dependency id="elasticsearch" version="7.16.2" />
+      <dependency id="nodejs" />
+      <dependency id="git" />
   </dependencies>
   </metadata>
 	<files>

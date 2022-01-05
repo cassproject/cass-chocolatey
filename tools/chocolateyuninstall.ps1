@@ -1,4 +1,3 @@
-﻿stop-service "tomcat8"
-rm "$env:CATALINA_HOME\webapps\ROOT.war"
-rm "$env:CATALINA_HOME\webapps\root" -Recurse
-start-service "tomcat8"
+﻿cd $env:ChocolateyPackageFolder
+npm run stop
+Remove-Item -Path cass -Force -Recurse
