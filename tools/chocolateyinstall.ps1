@@ -6,9 +6,8 @@ $packageName= 'CASS' # arbitrary name for the package, used in messages
 set-service "elasticsearch-service-x64" -startuptype "auto"
 stop-service "elasticsearch-service-x64"
 
-$version = Read-Host -Prompt 'Input the version you would like to install (eg 1.5.0 - You can see a list of versions at https://github.com/cassproject/CASS/releases). This installation is compatible with versions 0.5/1.5+.'
 cd $env:ChocolateyPackageFolder
-git clone --recurse-submodules https://github.com/cassproject/cass -b $version
+git clone --recurse-submodules https://github.com/cassproject/cass -b 1.5
 cd cass
 npm install
 
